@@ -22,10 +22,15 @@
         }
     },
     "require": {
-        "omnipay/common": "~2.0",
-		"dercoder/omnipay-webmoney": "~1.0"
+        "omnipay/common": "*"
     },
     "require-dev": {
-        "omnipay/tests": "~2.0"
-	}
+        "omnipay/tests": "*",
+        "satooshi/php-coveralls": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
