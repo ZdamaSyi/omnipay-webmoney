@@ -27,7 +27,8 @@
         }
     },	
 	"require": {
-		"omnipay/common": "~2.0"
+		"omnipay/common": "~2.0",
+		"dercoder/omnipay-webmoney": "~1.0"
 	},
 	"require-dev": {
         "omnipay/tests": "~2.0"
