@@ -12,7 +12,6 @@
     ],
     "homepage": "https://github.com/zdamasyi/omnipay-webmoney",
     "license": "MIT",
-	"minimum-stability": "stable",
     "support": {
         "email": "algrajdan@gmail.com",
         "source": "https://github.com/zdamasyi/omnipay-webmoney"
@@ -23,7 +22,7 @@
         }
     },
     "require": {
-        "omnipay/common": "~2.3"
+        "omnipay/common": "~2.0"
     },
     "require-dev": {
         "omnipay/tests": "~2.0",
