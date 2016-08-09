@@ -10,12 +10,6 @@
         "pay",
         "payment"
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/zdamasyi/omnipay-webmoney"
-        }
-    ],	
     "homepage": "https://github.com/zdamasyi/omnipay-webmoney",
     "license": "MIT",
     "support": {
@@ -24,19 +18,23 @@
     },
     "autoload": {
         "psr-4": {
-            "ZdamaSyi\\Omnipay\\WebMoney\\": "src/"
+            "Omnipay\\WebMoney\\": "src/"
         }
     },
-    "require": {
-        "omnipay/common": "*"
-    },
-    "require-dev": {
-        "omnipay/tests": "*",
-        "satooshi/php-coveralls": "~1.0"
-    },
-    "extra": {
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\WebMoney\\": "tests/"
+        }
+    },	
+	"require": {
+		"omnipay/common": "~2.0"
+	},
+	"require-dev": {
+        "omnipay/tests": "~2.0"
+	},
+	"extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
+	     "dev-master": "2.3.x-dev"
+		}
     }
 }
