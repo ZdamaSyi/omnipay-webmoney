@@ -10,6 +10,12 @@
         "pay",
         "payment"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/zdamasyi/omnipay-webmoney"
+        }
+    ],	
     "homepage": "https://github.com/zdamasyi/omnipay-webmoney",
     "license": "MIT",
     "support": {
